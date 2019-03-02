@@ -32,7 +32,9 @@ Go TourRadar folder from command prompt and run
 above command will install all the project dependancies on your machine. If you see any error then please check network and proxy settings.
 
 To run all the test
+```bash
         npm run cucumber
+```
 
 To run the tests which are not marked as @ignore
 ```bash        
