@@ -1,0 +1,32 @@
+{
+  "name": "TourRadar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated browser tests for functional and non-functional scenarios",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js --require ./SeleniumSetup.js --require ./features/",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "Vikrant Khemkar",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "protractor": "^5.4",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chalk": "^2.4.1",
+    "cucumber": "^4.2.1",
+    "gherkin": "^5.0.0",
+    "glob": "^7.1.2",
+    "lynx": "^0.2.0",
+    "prompt": "^1.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "tough-cookie": "2.4.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-cli": "^23.4.1",
+    "mock-fs": "^4.5.0"
+  }
+}
